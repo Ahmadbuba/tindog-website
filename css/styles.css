@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -64,15 +64,23 @@ p {
 
 /* Title Image */
 
+.index {
+    position: relative;
+}
+
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 
 /*  Features Section */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -116,4 +124,22 @@ p {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.card {
+    height: auto;
+}
+
+.card-button {
+    margin-top: 2.5rem;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-coloumn {
+    padding: 3% 2%;
 }
